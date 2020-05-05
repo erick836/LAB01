@@ -17,13 +17,13 @@ namespace LABORATORIO_I
         public void USE()
         {
             Console.WriteLine("EMPRESA LOS PATOS");
-            Console.WriteLine("INICIE SESIÓN: \n 1. ADMINISTRADOR \n 2. TRABAJADOR \n 3.SALIR");
+            Console.WriteLine("INICIE SESIÓN: \n 1. ADMINISTRADOR \n 2. TRABAJADOR \n 3. SALIR");
             A = int.Parse(Console.ReadLine());
 
             if (A == 1)
             {
                 Console.Clear();
-                Console.Write("INGRESE SU NOMBRE:");
+                Console.Write("INGRESE SU USUARIO: ");
                 U = Console.ReadLine();
 
                 if (USER == U)
@@ -96,7 +96,7 @@ namespace LABORATORIO_I
             if (A == 2)
             {
                 Console.Clear();
-                Console.Write("INGRESE SU NOMBRE: ");
+                Console.Write("INGRESE SU USUARIO: ");
                 UR = Console.ReadLine();
 
                 if (US == UR)
@@ -107,7 +107,7 @@ namespace LABORATORIO_I
                     if (CON == PS)
                     {
                         Console.Clear();
-                        Console.WriteLine("BIENVENIDO, ELIJA UNA OPCIÓN: \n 1.  CARGAR INVENTARIO \n 2. FACTURAR \n 3. SALIR ");
+                        Console.WriteLine("BIENVENIDO \n ELIJA UNA OPCIÓN: \n 1.  CARGAR INVENTARIO \n 2. FACTURAR \n 3. SALIR ");
                         C = int.Parse(Console.ReadLine());
                         if (C == 1)
                         {
